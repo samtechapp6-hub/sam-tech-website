@@ -1,0 +1,17 @@
+
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/samtecha/public_html
+    - /bin/cp index.html $DEPLOYPATH/
+    - /bin/cp about.html $DEPLOYPATH/
+    - /bin/cp contact.html $DEPLOYPATH/
+    - /bin/cp portfolio.html $DEPLOYPATH/
+    - /bin/cp sam-tech-services-archive.html $DEPLOYPATH/
+    - /bin/cp services.html $DEPLOYPATH/
+    - /bin/cp support-pricing.html $DEPLOYPATH/
+    - /bin/cp support.html $DEPLOYPATH/
+    - /bin/cp -R css $DEPLOYPATH/
+    - /bin/cp -R images $DEPLOYPATH/
+    - /bin/cp -R js $DEPLOYPATH/
+    - /bin/cp -R pages $DEPLOYPATH/
