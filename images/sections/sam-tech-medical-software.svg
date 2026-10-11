@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 760" role="img" aria-labelledby="title description">
+  <title id="title">سامانهٔ نرم‌افزاری پزشکی SAM-TECH</title>
+  <desc id="description">تصویر متحرک نرم‌افزار مدیریت درمان سام‌تک</desc>
+  <defs>
+    <radialGradient id="halo"><stop offset="0" stop-color="#17a6d2" stop-opacity=".16"/><stop offset=".58" stop-color="#0b4e78" stop-opacity=".12"/><stop offset="1" stop-color="#07111b" stop-opacity="0"/></radialGradient>
+    <radialGradient id="core" cx="35%" cy="25%"><stop stop-color="#263c4c"/><stop offset=".66" stop-color="#101923"/><stop offset="1" stop-color="#080d13"/></radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#66e5dc"/><stop offset=".5" stop-color="#168ac3"/><stop offset="1" stop-color="#087baf"/></linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="8" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      text{font-family:Vazirmatn,"Segoe UI",Tahoma,sans-serif}
+      .ring{fill:none;stroke:#168ac3;stroke-opacity:.2;stroke-width:1.2;stroke-dasharray:2 8;transform-origin:380px 380px}
+      .ring-solid{fill:none;stroke:#168ac3;stroke-opacity:.2;stroke-width:1}
+      .orbit-a{animation:spin 42s linear infinite}
+      .orbit-b{animation:spin 58s linear infinite reverse}
+      .orbit-c{animation:spin 72s linear infinite}
+      .orbit-points{transform-origin:380px 380px;animation:spin 46s linear infinite reverse}
+      .node{fill:#151d26;stroke:#31c9c3;stroke-opacity:.62;stroke-width:1.2}
+      .node-icon{fill:none;stroke:#62dfd5;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+      .module{fill:#fff;fill-opacity:.92;font-size:12px;font-weight:600;text-anchor:middle}
+      .module-en{fill:#8de0d4;font-size:9px;font-weight:700;letter-spacing:.8px;text-anchor:middle}
+      .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.8s ease-in-out infinite}
+      .pulse:nth-child(2n){animation-delay:-1.1s}
+      .core-ring{fill:none;stroke:url(#gold);stroke-width:2;stroke-opacity:.85}
+      .core-text{fill:#fff;text-anchor:middle;font-size:18px;font-weight:700;letter-spacing:1.6px}
+      .core-sub{fill:#a8bbc8;text-anchor:middle;font-size:10px;letter-spacing:1px}
+      @keyframes spin{to{transform:rotate(360deg)}}
+      @keyframes pulse{0%,100%{opacity:.68;transform:scale(.94)}50%{opacity:1;transform:scale(1.08)}}
+      @media(prefers-reduced-motion:reduce){.orbit-a,.orbit-b,.orbit-c,.orbit-points,.pulse{animation:none}}
+    </style>
+  </defs>
+  <circle cx="380" cy="380" r="375" fill="url(#halo)"/>
+  <g class="orbit-a"><circle class="ring" cx="380" cy="380" r="330"/><circle class="ring-solid" cx="380" cy="380" r="280"/></g>
+  <g class="orbit-b"><circle class="ring" cx="380" cy="380" r="240"/><circle class="ring" cx="380" cy="380" r="190"/></g>
+  <g class="orbit-c"><circle class="ring" cx="380" cy="380" r="145"/></g>
+  <g stroke="#168ac3" stroke-opacity=".22" stroke-width="1">
+    <path d="M380 380 380 52M380 380 612 148M380 380 708 380M380 380 612 612M380 380 380 708M380 380 148 612M380 380 52 380M380 380 148 148"/>
+  </g>
+  <g class="orbit-points" filter="url(#softGlow)" fill="#21b6c7">
+    <circle class="pulse" cx="380" cy="50" r="4"/><circle class="pulse" cx="613" cy="147" r="4"/>
+    <circle class="pulse" cx="710" cy="380" r="4"/><circle class="pulse" cx="613" cy="613" r="4"/>
+    <circle class="pulse" cx="380" cy="710" r="4"/><circle class="pulse" cx="147" cy="613" r="4"/>
+    <circle class="pulse" cx="50" cy="380" r="4"/><circle class="pulse" cx="147" cy="147" r="4"/>
+  </g>
+  <g>
+    <g transform="translate(380 52)"><circle class="node" r="28"/><path class="node-icon" d="M-8-7h16v18H-8zM-4-12h8v5M-4-1h8M-4 4h6"/><text class="module-en" y="44">CRM</text><text class="module" y="59">ارتباط بیمار</text></g>
+    <g transform="translate(612 148)"><circle class="node" r="28"/><path class="node-icon" d="M-9-6h18v16h-18zM-5-11h10v5M-5 0h10M-5 5h6"/><text class="module-en" y="44">PRM</text><text class="module" y="59">پرونده بیمار</text></g>
+    <g transform="translate(708 380)"><circle class="node" r="28"/><path class="node-icon" d="M-9-9h18v18h-18zM-5-13v8M5-13v8M-5-2h10M-5 3h6"/><text class="module-en" y="44">APPOINTMENT</text><text class="module" y="59">نوبت‌دهی</text></g>
+    <g transform="translate(612 612)"><circle class="node" r="28"/><path class="node-icon" d="M-10-7h20v15h-20zM-5-2h10M-5 3h5M-7-12h14"/><text class="module-en" y="44">FINANCE</text><text class="module" y="59">امور مالی</text></g>
+    <g transform="translate(380 708)"><circle class="node" r="28"/><path class="node-icon" d="M-9-10h18v20h-18zM-5-5h10M-5 0h10M-5 5h6"/><text class="module-en" y="-42">REPORTS</text><text class="module" y="-27">گزارش‌ها</text></g>
+    <g transform="translate(148 612)"><circle class="node" r="28"/><path class="node-icon" d="M-10 1h20v9h-20zM-7-8h14v6H-7zM-4-4h8M-4 5h8"/><text class="module-en" y="44">STAFF</text><text class="module" y="59">پزشک و پرسنل</text></g>
+    <g transform="translate(52 380)"><circle class="node" r="28"/><path class="node-icon" d="M-10-10c5-4 8 0 10 2 2-2 5-6 10-2 5 4 2 15-2 20-4 5-6 0-8-3-2 3-4 8-8 3-4-5-7-16-2-20z"/><text class="module-en" y="44">TREATMENT</text><text class="module" y="59">درمان</text></g>
+    <g transform="translate(148 148)"><circle class="node" r="28"/><path class="node-icon" d="M-10 9c0-5 4-8 10-8s10 3 10 8M0-2a5 5 0 1 0 0-10 5 5 0 0 0 0 10M-13-5a4 4 0 1 0 0-8M13-5a4 4 0 1 0 0-8"/><text class="module-en" y="44">PATIENT</text><text class="module" y="59">پذیرش بیمار</text></g>
+  </g>
+  <circle class="core-ring" cx="380" cy="380" r="116" filter="url(#glow)"/>
+  <circle cx="380" cy="380" r="108" fill="url(#core)" stroke="#ffffff" stroke-opacity=".13"/>
+  <g filter="url(#softGlow)">
+    <rect x="290" y="326" width="180" height="108" rx="13" fill="#101923" stroke="#65dcd8" stroke-opacity=".76" stroke-width="1.5"/>
+    <path d="M303 326h154a13 13 0 0 1 13 13v9H290v-9a13 13 0 0 1 13-13Z" fill="#1b2c39"/>
+    <circle cx="304" cy="338" r="2.5" fill="#ff8061"/><circle cx="313" cy="338" r="2.5" fill="#f1cb78"/><circle cx="322" cy="338" r="2.5" fill="#66d8c7"/>
+    <path d="M307 356v64" stroke="#67d6d5" stroke-opacity=".25"/>
+    <rect x="297" y="362" width="7" height="7" rx="2" fill="#48bccc"/><rect x="297" y="376" width="7" height="7" rx="2" fill="#456679"/><rect x="297" y="390" width="7" height="7" rx="2" fill="#456679"/>
+    <path d="M319 361h47M319 367h32" stroke="#8aa5b5" stroke-opacity=".55" stroke-width="2" stroke-linecap="round"/>
+    <path d="M326 407v-13h9v13M341 407v-22h9v22M356 407v-17h9v17" fill="#168ac3" fill-opacity=".7"/>
+    <circle cx="402" cy="383" r="22" fill="#168ac3" fill-opacity=".16" stroke="#66e5dc" stroke-opacity=".7"/>
+    <path d="M402 371v24M390 383h24" stroke="url(#gold)" stroke-width="5" stroke-linecap="round"/>
+    <text x="434" y="381" fill="#fff" text-anchor="middle" font-size="7" font-weight="700" letter-spacing=".4">HEALTH</text>
+    <text x="434" y="394" fill="#9db5c2" text-anchor="middle" font-size="5.5" letter-spacing=".3">MANAGEMENT</text>
+    <path d="M401 406h48" stroke="#3bbbbb" stroke-opacity=".7" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <text x="380" y="465" fill="#fff" text-anchor="middle" font-size="19" font-weight="700" letter-spacing="1.5">SAM-TECH</text>
+  <text x="380" y="484" fill="#8de0d4" text-anchor="middle" font-size="9" font-weight="500">نرم‌افزار مدیریت درمان</text>
+</svg>

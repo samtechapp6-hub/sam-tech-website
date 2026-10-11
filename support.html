@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5fafb">
+    <meta name="description" content="ثبت و پیگیری درخواست‌های پشتیبانی مشتریان SAM Tech">
+    <title>پشتیبانی سام‌تک | ثبت تیکت</title>
+    <link rel="stylesheet" href="css/site.css?v=20261009z10">
+    <link rel="stylesheet" href="css/support.css?v=20261009a">
+</head>
+<body class="support-page">
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="index.html" aria-label="سام‌تک، صفحهٔ اصلی">
+                <img class="brand-logo" src="images/logo.png" alt="نشان سام‌تک">
+                <span class="brand-copy"><strong>SAM TECH</strong><small>راهکارهای نرم‌افزاری</small></span>
+            </a>
+            <button class="menu-toggle" type="button" aria-label="باز کردن منو" aria-expanded="false" aria-controls="siteNav"><span></span><span></span><span></span></button>
+            <nav class="site-nav" id="siteNav" aria-label="ناوبری اصلی">
+                <a href="index.html">خانه</a><a href="index.html#module-showcase">امکانات</a><a href="portfolio.html">تعرفه و خرید</a><a href="index.html#samtech-overview">دربارهٔ سامانه</a><a href="support.html" aria-current="page">پشتیبانی</a>
+            </nav>
+            <a class="header-cta" href="contact.html">درخواست دمو <span aria-hidden="true">↗</span></a>
+        </div>
+    </header>
+
+    <main class="support-main">
+        <section class="support-intro">
+            <span class="support-emblem" aria-hidden="true">✳</span>
+            <div><span class="section-kicker">مرکز پشتیبانی سام‌تک</span><h1>ثبت و پیگیری درخواست</h1><p>تیکت‌های SAM DENTAL را ثبت کن و پاسخ‌های تیم پشتیبانی را همین‌جا دنبال کن.</p></div>
+        </section>
+
+        <div class="support-notice" id="supportNotice" role="status" hidden></div>
+
+        <section class="auth-layout" id="authView">
+            <div class="auth-card">
+                <div class="auth-tabs" role="tablist" aria-label="ورود یا ساخت حساب">
+                    <button type="button" class="auth-tab active" data-auth-tab="login" role="tab" aria-selected="true">ورود</button>
+                    <button type="button" class="auth-tab" data-auth-tab="register" role="tab" aria-selected="false">ساخت حساب مرکز</button>
+                </div>
+                <form id="loginForm" class="auth-form" autocomplete="on">
+                    <h2>ورود به پشتیبانی</h2>
+                    <p>با حساب مرکزتان وارد شوید تا درخواست‌ها و پاسخ‌ها را ببینید.</p>
+                    <label>ایمیل<input name="email" type="email" autocomplete="username" maxlength="254" required></label>
+                    <label>گذرواژه<input name="password" type="password" autocomplete="current-password" required></label>
+                    <button class="button button-primary" type="submit">ورود به حساب</button>
+                </form>
+                <form id="registerForm" class="auth-form" autocomplete="on" hidden>
+                    <h2>ساخت حساب مرکز</h2>
+                    <p>درخواست حساب پس از بررسی تیم پشتیبانی فعال می‌شود.</p>
+                    <label>نام مرکز<input name="organizationName" maxlength="160" required></label>
+                    <label>نام و نام خانوادگی مسئول<input name="fullName" maxlength="120" required></label>
+                    <label>ایمیل<input name="email" type="email" autocomplete="email" maxlength="254" required></label>
+                    <label>شماره تماس<input name="phone" type="tel" autocomplete="tel" maxlength="40" required></label>
+                    <label>گذرواژه<input name="password" type="password" autocomplete="new-password" minlength="10" maxlength="128" required><small>حداقل ۱۰ نویسه</small></label>
+                    <button class="button button-primary" type="submit">ارسال درخواست حساب</button>
+                </form>
+            </div>
+            <aside class="auth-aside"><span aria-hidden="true">🎧</span><h2>همراه شما در استفاده از SAM DENTAL</h2><p>برای هر موضوع یک درخواست جدا ثبت کنید تا پیگیری آن روشن و پاسخ‌ها مرتب بمانند.</p><ul><li>مشکل فنی و خطا</li><li>راهنمایی و پرسش</li><li>حساب و مجوز</li><li>پیشنهاد برای بهبود</li></ul></aside>
+        </section>
+
+        <section class="portal-view" id="portalView" hidden>
+            <div class="portal-heading"><div><span class="section-kicker" id="portalRole">پشتیبانی سام‌تک</span><h2>سلام، <span id="portalUserName"></span></h2><p id="portalOrgName"></p></div><button class="button button-quiet" id="logoutButton" type="button">خروج</button></div>
+
+            <section class="admin-panel" id="registrationPanel" hidden>
+                <div class="panel-heading"><div><h3>درخواست‌های حساب</h3><p>حساب مرکز را پس از بررسی فعال کنید.</p></div></div>
+                <div id="registrationsList" class="registration-list"></div>
+            </section>
+
+            <section class="admin-panel" id="supportAgentsPanel" hidden>
+                <div class="panel-heading"><div><h3>افزودن همکار پشتیبانی</h3><p>برای هر عضو تیم یک حساب جدا بسازید تا پاسخ‌ها به نام خودش ثبت شود.</p></div></div>
+                <form id="agentForm" class="agent-form"><label>نام و نام خانوادگی<input name="fullName" maxlength="120" required></label><label>ایمیل<input name="email" type="email" maxlength="254" required></label><label>گذرواژهٔ اولیه<input name="password" type="password" minlength="10" maxlength="128" required></label><button class="small-button" type="submit">ساخت حساب</button></form>
+            </section>
+
+            <div class="portal-grid">
+                <section class="ticket-form-card" id="newTicketPanel">
+                    <div class="panel-heading"><div><h3>ثبت تیکت جدید</h3><p>موضوع را کوتاه و شرح مشکل را با جزئیات بنویسید.</p></div><span class="panel-heading-icon" aria-hidden="true">＋</span></div>
+                    <form id="newTicketForm" class="ticket-form">
+                        <label>محصول<select name="product" required><option value="SAM DENTAL">SAM DENTAL</option></select></label>
+                        <div class="form-row"><label>دسته‌بندی<select name="category" required><option value="فنی و خطا">فنی و خطا</option><option value="راهنمایی">راهنمایی</option><option value="حساب و مجوز">حساب و مجوز</option><option value="پیشنهاد">پیشنهاد</option><option value="سایر">سایر</option></select></label><label>اولویت<select name="priority"><option value="عادی">عادی</option><option value="فوری">فوری</option></select></label></div>
+                        <label>عنوان<input name="subject" maxlength="120" required placeholder="مثلاً مشکل در ثبت برنامهٔ کاری"></label>
+                        <label>شرح درخواست<textarea name="description" rows="6" maxlength="3000" required placeholder="چه اتفاقی افتاده و چه مراحلی را انجام داده‌اید؟"></textarea><small class="field-hint">تا ۳۰۰۰ نویسه</small></label>
+                        <p class="privacy-note">لطفاً اطلاعات هویتی یا درمانی بیماران را در تیکت ننویسید.</p>
+                        <button class="button button-primary" type="submit">ارسال تیکت</button>
+                    </form>
+                </section>
+
+                <section class="tickets-card">
+                    <div class="panel-heading"><div><h3 id="ticketsHeading">تیکت‌های من</h3><p>وضعیت و پاسخ‌های درخواست‌هایتان را ببینید.</p></div><button class="small-button" id="refreshTicketsButton" type="button" aria-label="بارگذاری دوباره">↻</button></div>
+                    <div class="ticket-list" id="ticketList"></div>
+                </section>
+            </div>
+
+            <section class="ticket-detail" id="ticketDetail" hidden>
+                <div class="panel-heading detail-heading"><div><span class="section-kicker" id="detailNumber"></span><h3 id="detailSubject"></h3><p id="detailMeta"></p></div><button class="small-button" id="closeDetailButton" type="button" aria-label="بستن جزئیات">×</button></div>
+                <div class="detail-admin-controls" id="detailAdminControls" hidden><label>وضعیت تیکت<select id="detailStatus"><option>جدید</option><option>در حال بررسی</option><option>منتظر پاسخ مشتری</option><option>حل‌شده</option><option>بسته‌شده</option></select></label><button class="small-button" id="saveStatusButton" type="button">ذخیره وضعیت</button></div>
+                <div class="message-thread" id="messageThread"></div>
+                <form id="replyForm" class="reply-form"><label for="replyText">پاسخ یا توضیح بیشتر</label><textarea id="replyText" rows="3" maxlength="4000" required></textarea><button class="button button-primary" type="submit">ثبت پاسخ</button></form>
+            </section>
+        </section>
+
+        <p class="support-backlink"><a href="index.html">بازگشت به سایت سام‌تک</a></p>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-main">
+            <div><a class="brand footer-brand" href="index.html"><img class="brand-logo" src="images/logo.png" alt=""><span class="brand-copy"><strong>SAM TECH</strong><small>راهکارهای نرم‌افزاری</small></span></a><p class="footer-summary">سام‌تک، توسعه‌دهندهٔ نرم‌افزار مدیریت مطب SAM DENTAL.</p></div>
+            <div class="footer-column"><h2>دسترسی سریع</h2><ul class="footer-links"><li><a href="index.html">خانه</a></li><li><a href="services.html">امکانات</a></li><li><a href="portfolio.html">شرایط خرید</a></li></ul></div>
+            <div class="footer-column"><h2>پشتیبانی</h2><ul class="footer-links"><li><a href="support.html">ثبت و پیگیری تیکت</a></li><li><a href="contact.html">درخواست معرفی</a></li></ul></div>
+        </div>
+        <div class="footer-bottom"><div class="footer-bottom-inner"><p>© SAM TECH — SAM DENTAL</p><a href="index.html">بازگشت به صفحهٔ اصلی ↑</a></div></div>
+    </footer>
+    <script src="js/samdental-site.js?v=20261008a"></script>
+    <script src="js/support-client.js?v=20261008a"></script>
+</body>
+</html>

@@ -1,0 +1,292 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\pages\\network.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\network.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\pages\\web-design.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pages\\web-design.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\images\\7khan.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:images\\7khan.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\images\\webdesign-html-css.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:images\\webdesign-html-css.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\images\\user3.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:images\\user3.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\images\\user1.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:images\\user1.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\images\\server.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:images\\server.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\images\\sepidandental.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:images\\sepidandental.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\images\\network.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:images\\network.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\images\\logo.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:images\\logo.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\portfolio.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:portfolio.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\services.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:services.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\sam-tech-services-archive.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sam-tech-services-archive.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\contact.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:contact.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\about.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:about.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "web-design.html",
+              "DocumentMoniker": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\pages\\web-design.html",
+              "RelativeDocumentMoniker": "pages\\web-design.html",
+              "ToolTip": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\pages\\web-design.html",
+              "RelativeToolTip": "pages\\web-design.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-02T14:41:41.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "network.html",
+              "DocumentMoniker": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\pages\\network.html",
+              "RelativeDocumentMoniker": "pages\\network.html",
+              "ToolTip": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\pages\\network.html",
+              "RelativeToolTip": "pages\\network.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-02T14:41:37.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "7khan.png - PNG [1342x622, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\images\\7khan.png",
+              "RelativeDocumentMoniker": "images\\7khan.png",
+              "ToolTip": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\images\\7khan.png - PNG [1342x622, 32 bit, PNG]",
+              "RelativeToolTip": "images\\7khan.png - PNG [1342x622, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-10-02T14:41:33.135Z",
+              "EditorCaption": " - PNG [1342x622, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-02T14:41:18.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "webdesign-html-css.png - PNG [800x458, 24 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\images\\webdesign-html-css.png",
+              "RelativeDocumentMoniker": "images\\webdesign-html-css.png",
+              "ToolTip": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\images\\webdesign-html-css.png - PNG [800x458, 24 bit, PNG]",
+              "RelativeToolTip": "images\\webdesign-html-css.png - PNG [800x458, 24 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-10-02T14:41:32.44Z",
+              "EditorCaption": " - PNG [800x458, 24 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "user3.png - PNG [376x399, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\images\\user3.png",
+              "RelativeDocumentMoniker": "images\\user3.png",
+              "ToolTip": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\images\\user3.png - PNG [376x399, 32 bit, PNG]",
+              "RelativeToolTip": "images\\user3.png - PNG [376x399, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-10-02T14:41:30.976Z",
+              "EditorCaption": " - PNG [376x399, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "user1.png - PNG [1678x1551, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\images\\user1.png",
+              "RelativeDocumentMoniker": "images\\user1.png",
+              "ToolTip": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\images\\user1.png - PNG [1678x1551, 32 bit, PNG]",
+              "RelativeToolTip": "images\\user1.png - PNG [1678x1551, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-10-02T14:41:30.382Z",
+              "EditorCaption": " - PNG [1678x1551, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "server.png - PNG [664x664, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\images\\server.png",
+              "RelativeDocumentMoniker": "images\\server.png",
+              "ToolTip": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\images\\server.png - PNG [664x664, 32 bit, PNG]",
+              "RelativeToolTip": "images\\server.png - PNG [664x664, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-10-02T14:41:29.804Z",
+              "EditorCaption": " - PNG [664x664, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "sepidandental.png - PNG [1331x646, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\images\\sepidandental.png",
+              "RelativeDocumentMoniker": "images\\sepidandental.png",
+              "ToolTip": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\images\\sepidandental.png - PNG [1331x646, 32 bit, PNG]",
+              "RelativeToolTip": "images\\sepidandental.png - PNG [1331x646, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-10-02T14:41:29.182Z",
+              "EditorCaption": " - PNG [1331x646, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "network.jpg - Bitmap [547x365, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\images\\network.jpg",
+              "RelativeDocumentMoniker": "images\\network.jpg",
+              "ToolTip": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\images\\network.jpg - Bitmap [547x365, 24 bit, JPG]",
+              "RelativeToolTip": "images\\network.jpg - Bitmap [547x365, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-10-02T14:41:28.44Z",
+              "EditorCaption": " - Bitmap [547x365, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "logo.png - PNG [1254x1254, 24 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\images\\logo.png",
+              "RelativeDocumentMoniker": "images\\logo.png",
+              "ToolTip": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\images\\logo.png - PNG [1254x1254, 24 bit, PNG]",
+              "RelativeToolTip": "images\\logo.png - PNG [1254x1254, 24 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-10-02T14:41:27.663Z",
+              "EditorCaption": " - PNG [1254x1254, 24 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "services.html",
+              "DocumentMoniker": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\services.html",
+              "RelativeDocumentMoniker": "services.html",
+              "ToolTip": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\services.html",
+              "RelativeToolTip": "services.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-02T14:41:23.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "sam-tech-services-archive.html",
+              "DocumentMoniker": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\sam-tech-services-archive.html",
+              "RelativeDocumentMoniker": "sam-tech-services-archive.html",
+              "ToolTip": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\sam-tech-services-archive.html",
+              "RelativeToolTip": "sam-tech-services-archive.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-02T14:41:22.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "portfolio.html",
+              "DocumentMoniker": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\portfolio.html",
+              "RelativeDocumentMoniker": "portfolio.html",
+              "ToolTip": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\portfolio.html",
+              "RelativeToolTip": "portfolio.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-02T14:41:19.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "contact.html",
+              "DocumentMoniker": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\contact.html",
+              "RelativeDocumentMoniker": "contact.html",
+              "ToolTip": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\contact.html",
+              "RelativeToolTip": "contact.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-02T14:41:17.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "about.html",
+              "DocumentMoniker": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\about.html",
+              "RelativeDocumentMoniker": "about.html",
+              "ToolTip": "C:\\Users\\Sam\\Documents\\Codex\\sam-tech\\about.html",
+              "RelativeToolTip": "about.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-02T14:41:15.645Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

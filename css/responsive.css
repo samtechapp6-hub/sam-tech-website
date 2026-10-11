@@ -1,0 +1,196 @@
+/* ==========================
+   Large Devices
+========================== */
+
+@media (max-width:1200px){
+
+.container{
+    width:95%;
+}
+
+.hero h1{
+    font-size:48px;
+}
+
+}
+
+
+/* ==========================
+   Tablets
+========================== */
+
+@media (max-width:992px){
+
+nav{
+    display:none;
+}
+
+.menu{
+    display:block;
+}
+
+.header-btn{
+    display:none;
+}
+
+.hero-container{
+    flex-direction:column-reverse;
+    text-align:center;
+}
+
+.hero-buttons{
+    justify-content:center;
+}
+
+.hero-stats{
+    justify-content:center;
+}
+
+.hero-image img{
+    max-width:380px;
+}
+
+.hero h1{
+    font-size:42px;
+}
+
+.service-grid,
+.why-grid,
+.tech-grid,
+.portfolio-grid,
+.process-grid,
+.testimonial-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+
+/* ==========================
+   Mobile
+========================== */
+
+@media (max-width:768px){
+
+.section-title h2{
+    font-size:32px;
+}
+
+.hero{
+    padding-top:150px;
+}
+
+.hero h1{
+    font-size:34px;
+}
+
+.hero p{
+    font-size:16px;
+}
+
+.hero-buttons{
+    flex-direction:column;
+}
+
+.hero-buttons a{
+    width:100%;
+}
+
+.service-grid,
+.why-grid,
+.tech-grid,
+.portfolio-grid,
+.process-grid,
+.testimonial-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.stat-card{
+
+    width:100%;
+
+}
+
+.client{
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+.faq-question{
+
+    padding:20px;
+
+}
+
+.faq-question h3{
+
+    font-size:17px;
+
+}
+
+}
+
+
+/* ==========================
+   Small Mobile
+========================== */
+
+@media (max-width:480px){
+
+.logo h2{
+    font-size:24px;
+}
+
+.hero h1{
+    font-size:28px;
+}
+
+.section-title h2{
+    font-size:26px;
+}
+
+.btn,
+.btn-outline{
+
+    width:100%;
+
+    text-align:center;
+
+}
+
+.service-card,
+.why-card,
+.tech-card,
+.portfolio-card,
+.process-item,
+.testimonial-card{
+
+    padding:25px;
+
+}
+
+}
+@media(max-width:768px){
+
+.back-to-top{
+
+width:50px;
+
+height:50px;
+
+font-size:18px;
+
+left:20px;
+
+bottom:20px;
+
+}
+
+}
